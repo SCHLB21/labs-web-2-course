@@ -4,7 +4,6 @@ function inputString(){
     if(str!='' && str!=null){
         arrStr = str.split(';');
         if(arrStr.length!=1){
-            console.log(arrStr)
             for(let i in arrStr){
                 if(arrStr[i]) document.write(arrStr[i]+'<br>')   
             }
