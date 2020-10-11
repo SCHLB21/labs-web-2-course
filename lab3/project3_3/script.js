@@ -1,4 +1,4 @@
-function copyArray(arr){
-    copyArr = arr.concat();
+function copyArray(arr) {
+    let copyArr = JSON.parse(JSON.stringify(arr));
     return copyArr
 }
