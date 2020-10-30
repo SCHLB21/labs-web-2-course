@@ -1,0 +1,28 @@
+body {
+    margin: 50px 10% 0px 10%;
+    }
+    
+    .message {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    }
+    
+    .field {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+    }
+    
+    .item {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    }
+    
