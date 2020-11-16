@@ -203,6 +203,7 @@ drawCircle = () => figure = 'circle';
 drawEllipse = () => figure = 'ellipse';
 drawRectangle = () => figure = 'rectangle';
 
+// рисуем фигуры при помощи координат заданных через prompt
 function getParameters(fig, ctx) {
     console.log()
     let coordinates = prompt('Введите координаты фигуры через ","');
