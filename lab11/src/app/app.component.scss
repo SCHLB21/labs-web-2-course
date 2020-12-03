@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    width: 500px;
+  }
+  @media (max-width: 400px) {
+    width: 200px;
+  }
+  .card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    color: #fff;
+    &.online {
+      background-color: green;
+    }
+    &.offline {
+      background-color: red;
+    }
+  }
+}

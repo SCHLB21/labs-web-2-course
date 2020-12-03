@@ -1,0 +1,16 @@
+<div class="container">
+  <div *ngFor="let indicator of indicators; let id = index">
+    <div
+      *ngIf="indicator.show"
+      class="card"
+      [ngClass]="{
+        online: indicator.status,
+        offline: !indicator.status
+      }"
+    >
+      <h2>Id: {{ id }}</h2>
+      <p>Название датчика</p>
+      <button (click)="indicator.show = false">Удалить карточку</button>
+    </div>
+  </div>
+</div>
