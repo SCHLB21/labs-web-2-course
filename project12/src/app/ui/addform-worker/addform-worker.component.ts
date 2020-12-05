@@ -26,6 +26,8 @@ export class AddformWorkerComponent implements OnInit {
       this.surname === ''
     ) {
       alert('Заполните все поля');
+      this.name = '';
+      this.surname = '';
       return;
     }
     this.addWorker.emit({
@@ -34,5 +36,7 @@ export class AddformWorkerComponent implements OnInit {
       type: this.type,
       edit: false,
     });
+    this.name = '';
+    this.surname = '';
   }
 }
