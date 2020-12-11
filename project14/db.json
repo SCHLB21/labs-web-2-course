@@ -1,0 +1,44 @@
+{
+  "workers": [
+    {
+      "id": 1,
+      "name": "Иван",
+      "surname": "Иванов",
+      "phone": "+7(800)555-3535",
+      "type": 0,
+      "edit": false
+    },
+    {
+      "id": 2,
+      "name": "Петр",
+      "surname": "Петров",
+      "phone": "+7(800)555-3535",
+      "type": 1,
+      "edit": false
+    },
+    {
+      "id": 3,
+      "name": "Сидор",
+      "surname": "Сидоров",
+      "phone": "+7(800)555-3535",
+      "type": 2,
+      "edit": false
+    },
+    {
+      "id": 4,
+      "name": "Василий",
+      "surname": "Васильев",
+      "phone": "+7(800)555-3535",
+      "type": 3,
+      "edit": false
+    },
+    {
+      "name": "Дмитрий",
+      "surname": "Комков",
+      "phone": "+7(892)-632-1744",
+      "type": 0,
+      "edit": false,
+      "id": 5
+    }
+  ]
+}

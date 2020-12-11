@@ -43,7 +43,6 @@ export class AddformWorkerComponent implements OnInit {
     type: new FormControl(0),
   });
   onAddWorker() {
-    console.log(this.addForm.value.phone);
     // console.log(this.addForm.get('phone'));
     // if (
     //   this.name === undefined ||
@@ -65,6 +64,6 @@ export class AddformWorkerComponent implements OnInit {
     });
     // this.name = '';
     // this.surname = '';
-    this.addForm.setValue({ name: '', surname: '', phone: '' });
+    this.addForm.setValue({ name: '', surname: '', phone: '', type: 0 });
   }
 }
