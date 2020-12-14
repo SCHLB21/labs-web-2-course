@@ -12,7 +12,8 @@ export class TableWorkersComponent implements OnInit {
 
   @Output() deleteWorker = new EventEmitter<number>();
   @Output() editWorker = new EventEmitter<number>();
-
+  searchName: string = '';
+  searchSurname: string = '';
   constructor() {}
 
   ngOnInit(): void {}

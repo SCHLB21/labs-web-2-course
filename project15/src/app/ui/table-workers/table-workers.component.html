@@ -2,6 +2,27 @@
   <div class="row">
     <div class="col-12">
       <h5>{{ title }}</h5>
+      <div class="row mb-3">
+        <div class="col-12">
+          <span>Фильтр по имени или фамилии</span>
+        </div>
+        <div class="col-4">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="По имени"
+            [(ngModel)]="searchName"
+          />
+        </div>
+        <div class="col-4">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="По фамилии"
+            [(ngModel)]="searchSurname"
+          />
+        </div>
+      </div>
       <table class="table">
         <thead>
           <tr>
@@ -13,7 +34,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let worker of workers">
+          <tr
+            *ngFor="
+              let worker of workers | workersfilter: searchName:searchSurname
+            "
+          >
             <th scope="row">{{ worker.id }}</th>
             <td *ngIf="!worker.edit">{{ worker.name }}</td>
             <td *ngIf="!worker.edit">{{ worker.surname }}</td>

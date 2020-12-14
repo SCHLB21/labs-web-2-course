@@ -39,6 +39,14 @@
       "type": 0,
       "edit": false,
       "id": 5
+    },
+    {
+      "name": "Дмитрий",
+      "surname": "Комков",
+      "phone": "+7(892)-632-1744",
+      "type": 1,
+      "edit": false,
+      "id": 6
     }
   ]
 }

@@ -11,9 +11,10 @@ import { AppComponent } from './app.component';
 import { TableWorkersComponent } from './ui/table-workers/table-workers.component';
 import { AddformWorkerComponent } from './ui/addform-worker/addform-worker.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WorkersfilterPipe } from './shared/workersfilter.pipe';
 
 @NgModule({
-  declarations: [AppComponent, TableWorkersComponent, AddformWorkerComponent],
+  declarations: [AppComponent, TableWorkersComponent, AddformWorkerComponent, WorkersfilterPipe],
   imports: [
     BrowserModule,
     FormsModule,
