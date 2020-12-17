@@ -15,4 +15,10 @@ export class WorkersDatabase {
   postWorker(data: MyWorker) {
     return this.http.post(this.routeApi, data).toPromise();
   }
+  deleteWorker(id: number) {
+    return this.http.delete(this.routeApi + '/' + id).toPromise();
+  }
+  puWorker(id: number, data: MyWorker) {
+    return this.http.put(this.routeApi + '/' + id, data).toPromise();
+  }
 }

@@ -1,0 +1,147 @@
+{
+  "workers": [
+    {
+      "id": 2,
+      "name": "Петр",
+      "surname": "Петров",
+      "patronymic": "Петрович",
+      "phone": "+7(800)555-3535",
+      "email": "qwerty@mail.ru",
+      "date": "1998-10-21T13:28:06.419Z",
+      "department": 1,
+      "edit": false
+    },
+    {
+      "id": 3,
+      "name": "Петр",
+      "surname": "Петров",
+      "patronymic": "Петрович",
+      "phone": "+7(800)555-3535",
+      "email": "qwerty@mail.ru",
+      "date": "1997-10-21T13:28:06.419Z",
+      "department": 2,
+      "edit": false
+    },
+    {
+      "id": 4,
+      "name": "Петр",
+      "surname": "Петров",
+      "patronymic": "Петрович",
+      "phone": "+7(800)555-3535",
+      "email": "qwerty@mail.ru",
+      "date": "1996-10-21T13:28:06.419Z",
+      "department": 3,
+      "edit": false
+    },
+    {
+      "id": 10,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 11,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 12,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 13,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 14,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 15,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 16,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 17,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 18,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    },
+    {
+      "id": 19,
+      "name": "Иван ",
+      "surname": "Иванов",
+      "patronymic": "Иванович",
+      "phone": "+7(800)-555-3535",
+      "email": "mail@mail.ru",
+      "date": "1991-01-01T00:00:00.000Z",
+      "department": 0,
+      "edit": false
+    }
+  ]
+}

@@ -8,8 +8,8 @@ import { MyWorkerType, MyWorker } from 'src/app/shared/worker.model';
 })
 export class AddformWorkerComponent implements OnInit {
   myWorkerType = MyWorkerType;
-  name: string;
-  surname: string;
+  name: string = '';
+  surname: string = '';
   type = 0;
 
   @Output() addWorker = new EventEmitter<MyWorker>();
